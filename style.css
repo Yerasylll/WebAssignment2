@@ -1,0 +1,143 @@
+/* General Page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2eded;
+}
+
+/* Header */
+#top-banner {
+    background-color: #7cb53f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Headings and Paragraphs */
+.section-heading {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+}
+.paragraph-text {
+    font-size: 16px;
+    color: #fbfbfb;
+    line-height: 1.6;
+}
+
+/*Image*/
+.profile-image img {
+    margin: 20px 70px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    transition: transform 0.4s ease;
+}
+.profile-image img:hover {
+    transform: scale(1.05);
+}
+.profile-image figcaption {
+    text-align: none;
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 5px;
+    margin-left: 250px
+}
+
+/* Navigation */
+#navbar {
+    background-color: #757775;
+    padding: 10px;
+    text-align: center;
+}
+.navi-link {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navi-link:hover {
+    color: #279b00;
+    text-decoration: underline;
+}
+
+/* Content Boxes */
+.content-box {
+    background: white;
+    margin: 20px 100px;
+    padding: 20px;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 84, 42, 0.1);
+    transition: transform 0.4s ease;
+}
+
+.content-box:hover {
+    transform: scale(1.03);
+}
+
+/* Table */
+.schedule-table {
+    border-radius: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+.schedule-table th, .schedule-table td {
+    
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.schedule-table th {
+    background-color: #7cb53f;
+    color: white;
+}
+
+/* Form */
+.form-input {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+.submit-btn {
+    background-color: #7cb53f;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    background-color: #848e84;
+    transition: 0.3s;
+}
+
+/* Footer */
+#footer-container {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.hobby-list li, .site-list li {
+    transition: transform 0.2s ease, color 0.3s;
+}
+.hobby-list li:hover,
+.site-list li:hover {
+    transform: translateX(5px);
+    color: #279b00;
+}
+  
+  /* Navigation links */
+.nav-link {
+    text-decoration: none;
+    color: #303336;
+}
+.nav-link:hover {
+    color: #279b00;
+    text-decoration: underline;
+    font-weight: bold;
+}
